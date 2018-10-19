@@ -1,0 +1,57 @@
+li {
+    list-style-type: none;
+    padding-top: 0.3cm;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+li a {
+    color: yellow;
+    font-size: 15pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+}
+
+.tile {
+    background: rgba(50, 50, 50, 0.6);
+    margin: 0;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+#tumonline h3,
+#piazza h3 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-right: -50%;
+}
+
+.singlelink {
+    position: relative;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: 150%;
+    padding-top: 5%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    overflow: auto;
+    grid-gap: 0.3cm;
+}
